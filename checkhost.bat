@@ -68,8 +68,12 @@ for /f "tokens=*" %%a in (%temp_file%) do (
 REM Cleanup: Delete the temporary file
 del "%temp_file%"
 
-REM Display the total count of missing lines
-echo Looks like you are missing %missing_count% values/host lines. Use CCStopper to add them.
+REM If there are missing lines, display the count
+if %missing_count% gtr 0 (
+    echo Looks like you are missing %missing_count% values/host lines. Use CCStopper to add them.
+) else (
+    echo Your host file is up to date.
+)
 
 REM Pause to see the results
 pause
