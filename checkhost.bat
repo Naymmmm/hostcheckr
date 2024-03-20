@@ -41,7 +41,7 @@ if %errorlevel% neq 0 (
 )
 
 REM Define the URL of the raw file on GitHub
-set "github_raw_url=https://adobe.isdumb.one"
+set "github_raw_url=https://adobe.isdumb.one/list.txt"
 
 REM Define the path to the hosts file
 set "hosts_file=C:\Windows\System32\drivers\etc\hosts"
@@ -81,7 +81,7 @@ goto menu
 
 :display_raw_data
 REM Define the URL of the raw file on GitHub
-set "github_raw_url=https://adobe.isdumb.one"
+set "github_raw_url=https://adobe.isdumb.one/list.txt"
 
 REM Download and display the raw data from GitHub
 curl -s "%github_raw_url%"
