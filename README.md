@@ -1,6 +1,8 @@
+![image]([files://C:/Users/jzhang/Desktop/Isolated.png](https://naymmm.has.rocks/r/HOST.png))
+> part of the adobesucks suite
 # hostcheckr
 
-A batch script (could possibly be converted to .exe) that checks your host file against the ~~CCStopper~~ adobe.isdumb.one host block one.
+A batch script that checks your host file against the ~~CCStopper~~ adobe.isdumb.one host block one.
 
 ## Usage
 
