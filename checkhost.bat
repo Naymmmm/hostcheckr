@@ -41,7 +41,7 @@ if %errorlevel% neq 0 (
 )
 
 REM Define the URL of the raw file on GitHub
-set "github_raw_url=https://raw.githubusercontent.com/eaaasun/CCStopper/data/Hosts.txt"
+set "github_raw_url=https://adobe.isdumb.one"
 
 REM Define the path to the hosts file
 set "hosts_file=C:\Windows\System32\drivers\etc\hosts"
