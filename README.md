@@ -1,4 +1,4 @@
-# checkhost / hostcheckr
+# hostcheckr
 
 A batch script (could possibly be converted to .exe) that checks your host file against the ~~CCStopper~~ adobe.isdumb.one host block one.
 
@@ -17,9 +17,12 @@ A batch script (could possibly be converted to .exe) that checks your host file 
 - It uses curl to temporarily download the CCStopper host file.
 - If there are missing lines, it displays the count.
 
-## Script Sections
+## Sections
 
 - `:menu`: Displays the main menu and handles user choices.
 - `:check_hosts`: Checks the hosts file for missing lines.
 - `:display_raw_data`: Displays the raw GitHub data.
 - `:display_version_info`: Displays the script version information.
+
+
+*rip ccstopper*
