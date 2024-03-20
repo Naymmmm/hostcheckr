@@ -91,7 +91,7 @@ goto menu
 
 :display_version_info
 REM Display the script version information
-echo You are running Host Checker v1.1
+echo You are running Host Checker Revived
 echo Developed by Naymmm
 echo Hosts file by Ignacio
 echo Feel free to improve by opening a PR in the GitHub Repository!
