@@ -1,4 +1,4 @@
-![image]([files://C:/Users/jzhang/Desktop/Isolated.png](https://naymmm.has.rocks/r/HOST.png))
+![image](https://naymmm.has.rocks/r/HOST.png)
 > part of the adobesucks suite
 # hostcheckr
 
