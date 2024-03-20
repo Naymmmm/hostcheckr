@@ -70,7 +70,7 @@ del "%temp_file%"
 
 REM If there are missing lines, display the count
 if %missing_count% gtr 0 (
-    echo Looks like you are missing %missing_count% values/host lines. Use CCStopper to add them.
+    echo Looks like you are missing %missing_count% values/host lines. Use GenP or manually copy them to add.
 ) else (
     echo Your host file is up to date.
 )
@@ -93,6 +93,7 @@ goto menu
 REM Display the script version information
 echo You are running Host Checker v1.1
 echo Developed by Naymmm
+echo Hosts file by Ignacio
 echo Feel free to improve by opening a PR in the GitHub Repository!
 pause
 goto menu
