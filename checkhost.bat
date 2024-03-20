@@ -81,7 +81,7 @@ goto menu
 
 :display_raw_data
 REM Define the URL of the raw file on GitHub
-set "github_raw_url=https://raw.githubusercontent.com/eaaasun/CCStopper/data/Hosts.txt"
+set "github_raw_url=https://adobe.isdumb.one"
 
 REM Download and display the raw data from GitHub
 curl -s "%github_raw_url%"
