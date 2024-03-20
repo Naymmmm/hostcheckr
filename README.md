@@ -1,6 +1,6 @@
 # checkhost / hostcheckr
 
-A batch script (could possibly be converted to .exe) that checks your host file against the CCStopper host block one.
+A batch script (could possibly be converted to .exe) that checks your host file against the ~~CCStopper~~ adobe.isdumb.one host block one.
 
 ## Usage
 
