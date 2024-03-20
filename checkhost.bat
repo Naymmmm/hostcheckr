@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 :menu
 cls
 
-echo Hosts File Checker
+echo hostchekr
 echo ---------------------
 
 echo 1. Check the hosts file
