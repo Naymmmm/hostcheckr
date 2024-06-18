@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 :menu
 cls
 
-echo hostchekr
+echo hostcheckr
 echo ---------------------
 
 echo 1. Check the hosts file
@@ -23,7 +23,7 @@ if "%choice%" == "1" (
 ) else if "%choice%" == "4" (
     exit /b 0
 ) else (
-    echo Invalid choice. Please enter 1, 2, or 3.
+    echo Invalid choice. Please enter 1, 2, 3, or 4.
     pause
     goto menu
 )
@@ -70,9 +70,9 @@ del "%temp_file%"
 
 REM If there are missing lines, display the count
 if %missing_count% gtr 0 (
-    echo Looks like you are missing %missing_count% values/host lines. Use GenP or manually copy them to add.
+    echo Looks like you are missing %missing_count% host values. Use GenP or manually copy them to add.
 ) else (
-    echo Your host file is up to date.
+    echo Your hosts file is up to date.
 )
 
 REM Pause to see the results
