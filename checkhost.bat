@@ -5,7 +5,7 @@ setlocal enabledelayedexpansion
 cls
 
 echo hostcheckr
-echo ---------------------
+echo ----------
 
 echo 1. Check the hosts file
 echo 2. Display raw GitHub data
