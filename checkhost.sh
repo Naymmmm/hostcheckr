@@ -36,7 +36,7 @@ menu() {
 
 check_hosts() {
     # Define the URL of the raw file on GitHub
-    github_raw_url="https://adobe.isdumb.one/list.txt"
+    github_raw_url="https://a.dove.isdumb.one/list.txt"
     
     # Define the path to the hosts file
     hosts_file="/etc/hosts"
@@ -98,7 +98,7 @@ check_hosts() {
 
 display_raw_data() {
     # Define the URL of the raw file on GitHub
-    github_raw_url="https://adobe.isdumb.one/list.txt"
+    github_raw_url="https://a.dove.isdumb.one/list.txt"
     
     # Download and display the raw data from GitHub
     curl -s "$github_raw_url"
