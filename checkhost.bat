@@ -4,8 +4,8 @@ setlocal enabledelayedexpansion
 :menu
 cls
 
-echo hostchekr
-echo ---------------------
+echo hostcheckr
+echo ----------
 
 echo 1. Check the hosts file
 echo 2. Display raw GitHub data
@@ -23,7 +23,7 @@ if "%choice%" == "1" (
 ) else if "%choice%" == "4" (
     exit /b 0
 ) else (
-    echo Invalid choice. Please enter 1, 2, or 3.
+    echo Invalid choice. Please enter 1, 2, 3, or 4.
     pause
     goto menu
 )
@@ -41,7 +41,7 @@ if %errorlevel% neq 0 (
 )
 
 REM Define the URL of the raw file on GitHub
-set "github_raw_url=https://adobe.isdumb.one/list.txt"
+set "github_raw_url=https://a.dove.isdumb.one/list.txt"
 
 REM Define the path to the hosts file
 set "hosts_file=C:\Windows\System32\drivers\etc\hosts"
@@ -70,9 +70,9 @@ del "%temp_file%"
 
 REM If there are missing lines, display the count
 if %missing_count% gtr 0 (
-    echo Looks like you are missing %missing_count% values/host lines. Use GenP or manually copy them to add.
+    echo Looks like you are missing %missing_count% host values. Use GenP or manually copy them to add.
 ) else (
-    echo Your host file is up to date.
+    echo Your hosts file is up to date.
 )
 
 REM Pause to see the results
@@ -81,7 +81,7 @@ goto menu
 
 :display_raw_data
 REM Define the URL of the raw file on GitHub
-set "github_raw_url=https://adobe.isdumb.one/list.txt"
+set "github_raw_url=https://a.dove.isdumb.one/list.txt"
 
 REM Download and display the raw data from GitHub
 curl -s "%github_raw_url%"
