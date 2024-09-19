@@ -1,5 +1,3 @@
-![image](https://naymmm.has.rocks/r/HOST.png)
-> part of the adobesucks suite
 # hostcheckr
 
 A batch script that checks your host file against the ~~CCStopper~~ a.dove.isdumb.one host block one.
